@@ -24,4 +24,6 @@ keystore.properties
 .local/
 # Снимки реального устройства остаются локальными
 docs/device-check/
-docs/screenshots/
+# В Git включается только подготовленная галерея README
+docs/screenshots/*
+!docs/screenshots/readme/

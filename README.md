@@ -18,13 +18,72 @@ Android-приложение для совместного общения с п�
 
 Регистрация, сервер, реклама, аналитика и микрофон отсутствуют. Разрешение `INTERNET` не используется. Резервное копирование и перенос данных Android исключены правилами приложения. Все результаты находятся на устройстве; их можно удалить в кабинете взрослого.
 
+## Скриншоты
+
+Экраны версии **0.2.0** сняты на эмуляторе планшета Android 15. Профиль и результаты демонстрационные, данные детей не использованы. Нажмите на изображение, чтобы открыть его в полном размере.
+
+<table>
+<tr>
+<td width="50%" align="center">
+<a href="docs/screenshots/readme/01-home.png"><img src="docs/screenshots/readme/01-home.png" width="480" alt="Главный экран: Четыре крупных раздела и отдельный вход для взрослого."></a>
+<br><strong>Главный экран</strong><br>Четыре крупных раздела и отдельный вход для взрослого.
+</td>
+<td width="50%" align="center">
+<a href="docs/screenshots/readme/02-communication.png"><img src="docs/screenshots/readme/02-communication.png" width="480" alt="Общение карточками: Выбор картинок и составление просьбы «ХОЧУ ВОДУ»."></a>
+<br><strong>Общение карточками</strong><br>Выбор картинок и составление просьбы «ХОЧУ ВОДУ».
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<a href="docs/screenshots/readme/03-word.png"><img src="docs/screenshots/readme/03-word.png" width="480" alt="Знакомство со словом: Картинка, написанное слово и повторное прослушивание."></a>
+<br><strong>Знакомство со словом</strong><br>Картинка, написанное слово и повторное прослушивание.
+</td>
+<td width="50%" align="center">
+<a href="docs/screenshots/readme/04-build-word.png"><img src="docs/screenshots/readme/04-build-word.png" width="480" alt="Сборка слова: Буквы выбираются нажатием: на экране собрано «КО» из слова «КОТ»."></a>
+<br><strong>Сборка слова</strong><br>Буквы выбираются нажатием: на экране собрано «КО» из слова «КОТ».
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<a href="docs/screenshots/readme/05-word-topics.png"><img src="docs/screenshots/readme/05-word-topics.png" width="480" alt="Выбор темы: 50 учебных слов сгруппированы по смыслу; здесь выбраны животные."></a>
+<br><strong>Выбор темы</strong><br>50 учебных слов сгруппированы по смыслу; здесь выбраны животные.
+</td>
+<td width="50%" align="center">
+<a href="docs/screenshots/readme/06-typing-copy.png"><img src="docs/screenshots/readme/06-typing-copy.png" width="480" alt="Печатание по образцу: Набор «МОЛОКО» с ограниченной клавиатурой и подсветкой следующей буквы."></a>
+<br><strong>Печатание по образцу</strong><br>Набор «МОЛОКО» с ограниченной клавиатурой и подсветкой следующей буквы.
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<a href="docs/screenshots/readme/07-typing-picture.png"><img src="docs/screenshots/readme/07-typing-picture.png" width="480" alt="Печатание по картинке: Упражнение без написанного образца, с полным русским алфавитом."></a>
+<br><strong>Печатание по картинке</strong><br>Упражнение без написанного образца, с полным русским алфавитом.
+</td>
+<td width="50%" align="center">
+<a href="docs/screenshots/readme/08-typing-phrase.png"><img src="docs/screenshots/readme/08-typing-phrase.png" width="480" alt="Короткие фразы: Набор просьбы «ДАЙ КНИГУ» по образцу."></a>
+<br><strong>Короткие фразы</strong><br>Набор просьбы «ДАЙ КНИГУ» по образцу.
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<a href="docs/screenshots/readme/09-parent-settings.png"><img src="docs/screenshots/readme/09-parent-settings.png" width="480" alt="Настройки взрослого: Подсказки, русский алфавит и выбор уровня занятий."></a>
+<br><strong>Настройки взрослого</strong><br>Подсказки, русский алфавит и выбор уровня занятий.
+</td>
+<td width="50%" align="center">
+<a href="docs/screenshots/readme/10-progress.png"><img src="docs/screenshots/readme/10-progress.png" width="480" alt="Мои достижения: Фактические результаты демонстрационных занятий без рейтингов."></a>
+<br><strong>Мои достижения</strong><br>Фактические результаты демонстрационных занятий без рейтингов.
+</td>
+</tr>
+</table>
+
+На эмуляторе русский голос не установлен; доступность озвучивания зависит от установленного на устройстве TTS. [О снимках и демонстрационных данных](docs/screenshots/readme/README.md).
+
 ## Исходники и автоматическая сборка
 
 Репозиторий: [alexkrass76/mogu-skazat](https://github.com/alexkrass76/mogu-skazat).
 
 GitHub Actions собирает тестовый APK, выполняет модульные тесты и Android Lint при изменениях `main` и в pull request. APK и отчёты доступны в разделе **Actions → запуск → Artifacts** в течение 14 дней. Инструментальные тесты запускаются отдельно на подключённом тестовом устройстве или эмуляторе.
 
-Проверки версии 0.2.0: 19 модульных и 8 инструментальных тестов прошли на эмуляторе, сборка и Android Lint завершились без ошибок. Основные экраны предыдущей версии также проверены на планшете Android 13. История проверок и её границы сохранены в документации. Версия 0.2.0 меняет название; идентификатор `ru.slovaryad` сохранён для совместимости с установленной версией и её локальными данными.
+Проверки версии 0.2.0: 19 модульных и 8 инструментальных тестов прошли на эмуляторе, сборка и Android Lint завершились без ошибок. Основные экраны предыдущей версии также проверены на планшете Android 13. История проверок и её границы сохранены в документации. Версия 0.2.0 расширяет учебный словарь и добавляет выбор темы; идентификатор `ru.slovaryad` сохранён для совместимости с установленной версией и её локальными данными.
 
 ## Сборка в Android Studio
 
