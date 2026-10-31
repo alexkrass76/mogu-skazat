@@ -8,7 +8,8 @@
       "image": "want",
       "spoken": "Хочу",
       "phraseForm": "ХОЧУ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Общение"
     },
     {
       "id": "give",
@@ -17,7 +18,8 @@
       "image": "give",
       "spoken": "Дай",
       "phraseForm": "ДАЙ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Общение"
     },
     {
       "id": "more",
@@ -26,7 +28,8 @@
       "image": "more",
       "spoken": "Ещё",
       "phraseForm": "ЕЩЁ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Общение"
     },
     {
       "id": "no",
@@ -35,7 +38,8 @@
       "image": "no",
       "spoken": "Нет",
       "phraseForm": "НЕТ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Общение"
     },
     {
       "id": "yes",
@@ -44,7 +48,8 @@
       "image": "yes",
       "spoken": "Да",
       "phraseForm": "ДА",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Общение"
     },
     {
       "id": "help",
@@ -53,7 +58,8 @@
       "image": "help",
       "spoken": "Помоги",
       "phraseForm": "ПОМОГИ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Общение"
     },
     {
       "id": "drink",
@@ -62,7 +68,8 @@
       "image": "drink",
       "spoken": "Пить",
       "phraseForm": "ПИТЬ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Действия"
     },
     {
       "id": "eat",
@@ -71,7 +78,8 @@
       "image": "eat",
       "spoken": "Есть",
       "phraseForm": "ЕСТЬ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Действия"
     },
     {
       "id": "play",
@@ -80,7 +88,8 @@
       "image": "play",
       "spoken": "Играть",
       "phraseForm": "ИГРАТЬ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Действия"
     },
     {
       "id": "ball",
@@ -89,7 +98,8 @@
       "image": "ball",
       "spoken": "Мяч",
       "phraseForm": "МЯЧ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Игрушки"
     },
     {
       "id": "car",
@@ -98,7 +108,8 @@
       "image": "car",
       "spoken": "Машина",
       "phraseForm": "МАШИНУ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Игрушки"
     },
     {
       "id": "water",
@@ -107,7 +118,8 @@
       "image": "water",
       "spoken": "Вода",
       "phraseForm": "ВОДУ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Напитки"
     },
     {
       "id": "apple",
@@ -116,7 +128,8 @@
       "image": "apple",
       "spoken": "Яблоко",
       "phraseForm": "ЯБЛОКО",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Еда"
     },
     {
       "id": "juice",
@@ -125,7 +138,8 @@
       "image": "juice",
       "spoken": "Сок",
       "phraseForm": "СОК",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Напитки"
     },
     {
       "id": "cat",
@@ -134,7 +148,8 @@
       "image": "cat",
       "spoken": "Кот",
       "phraseForm": "КОТА",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Животные"
     },
     {
       "id": "dog",
@@ -143,7 +158,8 @@
       "image": "dog",
       "spoken": "Собака",
       "phraseForm": "СОБАКУ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Животные"
     },
     {
       "id": "home",
@@ -152,7 +168,8 @@
       "image": "home",
       "spoken": "Дом",
       "phraseForm": "ДОМ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Дом"
     },
     {
       "id": "poppy",
@@ -161,7 +178,8 @@
       "image": "poppy",
       "spoken": "Мак",
       "phraseForm": "МАК",
-      "communication": false
+      "communication": false,
+      "learningGroup": "Растения"
     },
     {
       "id": "nose",
@@ -170,7 +188,8 @@
       "image": "nose",
       "spoken": "Нос",
       "phraseForm": "НОС",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Тело"
     },
     {
       "id": "banana",
@@ -179,7 +198,8 @@
       "image": "banana",
       "spoken": "Банан",
       "phraseForm": "БАНАН",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Еда"
     },
     {
       "id": "bear",
@@ -188,7 +208,8 @@
       "image": "bear",
       "spoken": "Мишка",
       "phraseForm": "МИШКУ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Игрушки"
     },
     {
       "id": "rest",
@@ -197,7 +218,8 @@
       "image": "rest",
       "spoken": "Отдых",
       "phraseForm": "ОТДЫХ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Дом"
     },
     {
       "id": "toilet",
@@ -206,7 +228,278 @@
       "image": "toilet",
       "spoken": "Туалет",
       "phraseForm": "ТУАЛЕТ",
-      "communication": true
+      "communication": true,
+      "learningGroup": "Дом"
+    },
+    {
+      "id": "soup",
+      "text": "СУП",
+      "category": "Еда",
+      "image": "soup",
+      "spoken": "Суп",
+      "phraseForm": "СУП",
+      "communication": false,
+      "learningGroup": "Еда"
+    },
+    {
+      "id": "cheese",
+      "text": "СЫР",
+      "category": "Еда",
+      "image": "cheese",
+      "spoken": "Сыр",
+      "phraseForm": "СЫР",
+      "communication": false,
+      "learningGroup": "Еда"
+    },
+    {
+      "id": "bread",
+      "text": "ХЛЕБ",
+      "category": "Еда",
+      "image": "bread",
+      "spoken": "Хлеб",
+      "phraseForm": "ХЛЕБ",
+      "communication": false,
+      "learningGroup": "Еда"
+    },
+    {
+      "id": "tea",
+      "text": "ЧАЙ",
+      "category": "Напитки",
+      "image": "tea",
+      "spoken": "Чай",
+      "phraseForm": "ЧАЙ",
+      "communication": false,
+      "learningGroup": "Напитки"
+    },
+    {
+      "id": "milk",
+      "text": "МОЛОКО",
+      "category": "Напитки",
+      "image": "milk",
+      "spoken": "Молоко",
+      "phraseForm": "МОЛОКО",
+      "communication": false,
+      "learningGroup": "Напитки"
+    },
+    {
+      "id": "pear",
+      "text": "ГРУША",
+      "category": "Еда",
+      "image": "pear",
+      "spoken": "Груша",
+      "phraseForm": "ГРУШУ",
+      "communication": false,
+      "learningGroup": "Еда"
+    },
+    {
+      "id": "plum",
+      "text": "СЛИВА",
+      "category": "Еда",
+      "image": "plum",
+      "spoken": "Слива",
+      "phraseForm": "СЛИВУ",
+      "communication": false,
+      "learningGroup": "Еда"
+    },
+    {
+      "id": "fish",
+      "text": "РЫБА",
+      "category": "Животные",
+      "image": "fish",
+      "spoken": "Рыба",
+      "phraseForm": "РЫБУ",
+      "communication": false,
+      "learningGroup": "Животные"
+    },
+    {
+      "id": "duck",
+      "text": "УТКА",
+      "category": "Животные",
+      "image": "duck",
+      "spoken": "Утка",
+      "phraseForm": "УТКУ",
+      "communication": false,
+      "learningGroup": "Животные"
+    },
+    {
+      "id": "goose",
+      "text": "ГУСЬ",
+      "category": "Животные",
+      "image": "goose",
+      "spoken": "Гусь",
+      "phraseForm": "ГУСЯ",
+      "communication": false,
+      "learningGroup": "Животные"
+    },
+    {
+      "id": "mouse",
+      "text": "МЫШЬ",
+      "category": "Животные",
+      "image": "mouse",
+      "spoken": "Мышь",
+      "phraseForm": "МЫШЬ",
+      "communication": false,
+      "learningGroup": "Животные"
+    },
+    {
+      "id": "hare",
+      "text": "ЗАЯЦ",
+      "category": "Животные",
+      "image": "hare",
+      "spoken": "Заяц",
+      "phraseForm": "ЗАЙЦА",
+      "communication": false,
+      "learningGroup": "Животные"
+    },
+    {
+      "id": "fox",
+      "text": "ЛИСА",
+      "category": "Животные",
+      "image": "fox",
+      "spoken": "Лиса",
+      "phraseForm": "ЛИСУ",
+      "communication": false,
+      "learningGroup": "Животные"
+    },
+    {
+      "id": "porridge",
+      "text": "КАША",
+      "category": "Еда",
+      "image": "porridge",
+      "spoken": "Каша",
+      "phraseForm": "КАШУ",
+      "communication": false,
+      "learningGroup": "Еда"
+    },
+    {
+      "id": "table",
+      "text": "СТОЛ",
+      "category": "Дом",
+      "image": "table",
+      "spoken": "Стол",
+      "phraseForm": "СТОЛ",
+      "communication": false,
+      "learningGroup": "Дом"
+    },
+    {
+      "id": "chair",
+      "text": "СТУЛ",
+      "category": "Дом",
+      "image": "chair",
+      "spoken": "Стул",
+      "phraseForm": "СТУЛ",
+      "communication": false,
+      "learningGroup": "Дом"
+    },
+    {
+      "id": "cup",
+      "text": "ЧАШКА",
+      "category": "Дом",
+      "image": "cup",
+      "spoken": "Чашка",
+      "phraseForm": "ЧАШКУ",
+      "communication": false,
+      "learningGroup": "Дом"
+    },
+    {
+      "id": "spoon",
+      "text": "ЛОЖКА",
+      "category": "Дом",
+      "image": "spoon",
+      "spoken": "Ложка",
+      "phraseForm": "ЛОЖКУ",
+      "communication": false,
+      "learningGroup": "Дом"
+    },
+    {
+      "id": "book",
+      "text": "КНИГА",
+      "category": "Дом",
+      "image": "book",
+      "spoken": "Книга",
+      "phraseForm": "КНИГУ",
+      "communication": false,
+      "learningGroup": "Дом"
+    },
+    {
+      "id": "cube",
+      "text": "КУБИК",
+      "category": "Игрушки",
+      "image": "cube",
+      "spoken": "Кубик",
+      "phraseForm": "КУБИК",
+      "communication": false,
+      "learningGroup": "Игрушки"
+    },
+    {
+      "id": "sleep",
+      "text": "СПАТЬ",
+      "category": "Действия",
+      "image": "sleep",
+      "spoken": "Спать",
+      "phraseForm": "СПАТЬ",
+      "communication": false,
+      "learningGroup": "Действия"
+    },
+    {
+      "id": "walk",
+      "text": "ИДТИ",
+      "category": "Действия",
+      "image": "walk",
+      "spoken": "Идти",
+      "phraseForm": "ИДТИ",
+      "communication": false,
+      "learningGroup": "Действия"
+    },
+    {
+      "id": "wash",
+      "text": "МЫТЬ",
+      "category": "Действия",
+      "image": "wash",
+      "spoken": "Мыть",
+      "phraseForm": "МЫТЬ",
+      "communication": false,
+      "learningGroup": "Действия"
+    },
+    {
+      "id": "stop",
+      "text": "СТОП",
+      "category": "Потребности",
+      "image": "stop",
+      "spoken": "Стоп",
+      "phraseForm": "СТОП",
+      "communication": false,
+      "learningGroup": "Общение"
+    },
+    {
+      "id": "hand",
+      "text": "РУКА",
+      "category": "Тело",
+      "image": "hand",
+      "spoken": "Рука",
+      "phraseForm": "РУКУ",
+      "communication": false,
+      "learningGroup": "Тело"
+    },
+    {
+      "id": "mouth",
+      "text": "РОТ",
+      "category": "Тело",
+      "image": "mouth",
+      "spoken": "Рот",
+      "phraseForm": "РОТ",
+      "communication": false,
+      "learningGroup": "Тело"
+    },
+    {
+      "id": "hedgehog",
+      "text": "ЁЖ",
+      "category": "Животные",
+      "image": "hedgehog",
+      "spoken": "Ёж",
+      "phraseForm": "ЕЖА",
+      "communication": false,
+      "learningGroup": "Животные"
     }
   ],
   "exercises": [
@@ -956,6 +1249,2710 @@
       "image": "play",
       "instruction": "Напечатай фразу. Покажи её взрослому, когда захочешь.",
       "speech": "ЕЩЁ ИГРАТЬ",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всю фразу"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_want",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ХОЧУ",
+      "wordId": "want",
+      "image": "want",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Хочу",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_want",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ХОЧУ",
+      "wordId": "want",
+      "image": "want",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Хочу",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_want",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ХОЧУ",
+      "wordId": "want",
+      "image": "want",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Хочу",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_want",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ХОЧУ",
+      "wordId": "want",
+      "image": "want",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Хочу",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_give",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ДАЙ",
+      "wordId": "give",
+      "image": "give",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Дай",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_give",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ДАЙ",
+      "wordId": "give",
+      "image": "give",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Дай",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_give",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ДАЙ",
+      "wordId": "give",
+      "image": "give",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Дай",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_give",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ДАЙ",
+      "wordId": "give",
+      "image": "give",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Дай",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_more",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ЕЩЁ",
+      "wordId": "more",
+      "image": "more",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Ещё",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_more",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ЕЩЁ",
+      "wordId": "more",
+      "image": "more",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Ещё",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_more",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ЕЩЁ",
+      "wordId": "more",
+      "image": "more",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Ещё",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_more",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ЕЩЁ",
+      "wordId": "more",
+      "image": "more",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Ещё",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_yes",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ДА",
+      "wordId": "yes",
+      "image": "yes",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Да",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_yes",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ДА",
+      "wordId": "yes",
+      "image": "yes",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Да",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_yes",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ДА",
+      "wordId": "yes",
+      "image": "yes",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Да",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_yes",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ДА",
+      "wordId": "yes",
+      "image": "yes",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Да",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_drink",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ПИТЬ",
+      "wordId": "drink",
+      "image": "drink",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Пить",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_drink",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ПИТЬ",
+      "wordId": "drink",
+      "image": "drink",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Пить",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_drink",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ПИТЬ",
+      "wordId": "drink",
+      "image": "drink",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Пить",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_drink",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ПИТЬ",
+      "wordId": "drink",
+      "image": "drink",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Пить",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_eat",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ЕСТЬ",
+      "wordId": "eat",
+      "image": "eat",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Есть",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_eat",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ЕСТЬ",
+      "wordId": "eat",
+      "image": "eat",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Есть",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_eat",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ЕСТЬ",
+      "wordId": "eat",
+      "image": "eat",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Есть",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_eat",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ЕСТЬ",
+      "wordId": "eat",
+      "image": "eat",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Есть",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_car",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "МАШИНА",
+      "wordId": "car",
+      "image": "car",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Машина",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_car",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "МАШИНА",
+      "wordId": "car",
+      "image": "car",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Машина",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_car",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "МАШИНА",
+      "wordId": "car",
+      "image": "car",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Машина",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_car",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "МАШИНА",
+      "wordId": "car",
+      "image": "car",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Машина",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_apple",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ЯБЛОКО",
+      "wordId": "apple",
+      "image": "apple",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Яблоко",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_apple",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ЯБЛОКО",
+      "wordId": "apple",
+      "image": "apple",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Яблоко",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_apple",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ЯБЛОКО",
+      "wordId": "apple",
+      "image": "apple",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Яблоко",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_apple",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ЯБЛОКО",
+      "wordId": "apple",
+      "image": "apple",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Яблоко",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_dog",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "СОБАКА",
+      "wordId": "dog",
+      "image": "dog",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Собака",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_dog",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "СОБАКА",
+      "wordId": "dog",
+      "image": "dog",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Собака",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_dog",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "СОБАКА",
+      "wordId": "dog",
+      "image": "dog",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Собака",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_dog",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "СОБАКА",
+      "wordId": "dog",
+      "image": "dog",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Собака",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_banana",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "БАНАН",
+      "wordId": "banana",
+      "image": "banana",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Банан",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_banana",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "БАНАН",
+      "wordId": "banana",
+      "image": "banana",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Банан",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_banana",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "БАНАН",
+      "wordId": "banana",
+      "image": "banana",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Банан",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_banana",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "БАНАН",
+      "wordId": "banana",
+      "image": "banana",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Банан",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_bear",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "МИШКА",
+      "wordId": "bear",
+      "image": "bear",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Мишка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_bear",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "МИШКА",
+      "wordId": "bear",
+      "image": "bear",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Мишка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_bear",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "МИШКА",
+      "wordId": "bear",
+      "image": "bear",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Мишка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_bear",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "МИШКА",
+      "wordId": "bear",
+      "image": "bear",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Мишка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_rest",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ОТДЫХ",
+      "wordId": "rest",
+      "image": "rest",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Отдых",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_rest",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ОТДЫХ",
+      "wordId": "rest",
+      "image": "rest",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Отдых",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_rest",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ОТДЫХ",
+      "wordId": "rest",
+      "image": "rest",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Отдых",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_rest",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ОТДЫХ",
+      "wordId": "rest",
+      "image": "rest",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Отдых",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_toilet",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ТУАЛЕТ",
+      "wordId": "toilet",
+      "image": "toilet",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Туалет",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_toilet",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ТУАЛЕТ",
+      "wordId": "toilet",
+      "image": "toilet",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Туалет",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_toilet",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ТУАЛЕТ",
+      "wordId": "toilet",
+      "image": "toilet",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Туалет",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_toilet",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ТУАЛЕТ",
+      "wordId": "toilet",
+      "image": "toilet",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Туалет",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_soup",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "СУП",
+      "wordId": "soup",
+      "image": "soup",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Суп",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_soup",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "СУП",
+      "wordId": "soup",
+      "image": "soup",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Суп",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_soup",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "СУП",
+      "wordId": "soup",
+      "image": "soup",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Суп",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_soup",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "СУП",
+      "wordId": "soup",
+      "image": "soup",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Суп",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_cheese",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "СЫР",
+      "wordId": "cheese",
+      "image": "cheese",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Сыр",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_cheese",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "СЫР",
+      "wordId": "cheese",
+      "image": "cheese",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Сыр",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_cheese",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "СЫР",
+      "wordId": "cheese",
+      "image": "cheese",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Сыр",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_cheese",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "СЫР",
+      "wordId": "cheese",
+      "image": "cheese",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Сыр",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_bread",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ХЛЕБ",
+      "wordId": "bread",
+      "image": "bread",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Хлеб",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_bread",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ХЛЕБ",
+      "wordId": "bread",
+      "image": "bread",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Хлеб",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_bread",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ХЛЕБ",
+      "wordId": "bread",
+      "image": "bread",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Хлеб",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_bread",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ХЛЕБ",
+      "wordId": "bread",
+      "image": "bread",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Хлеб",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_tea",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ЧАЙ",
+      "wordId": "tea",
+      "image": "tea",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Чай",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_tea",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ЧАЙ",
+      "wordId": "tea",
+      "image": "tea",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Чай",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_tea",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ЧАЙ",
+      "wordId": "tea",
+      "image": "tea",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Чай",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_tea",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ЧАЙ",
+      "wordId": "tea",
+      "image": "tea",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Чай",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_milk",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "МОЛОКО",
+      "wordId": "milk",
+      "image": "milk",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Молоко",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_milk",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "МОЛОКО",
+      "wordId": "milk",
+      "image": "milk",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Молоко",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_milk",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "МОЛОКО",
+      "wordId": "milk",
+      "image": "milk",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Молоко",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_milk",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "МОЛОКО",
+      "wordId": "milk",
+      "image": "milk",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Молоко",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_pear",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ГРУША",
+      "wordId": "pear",
+      "image": "pear",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Груша",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_pear",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ГРУША",
+      "wordId": "pear",
+      "image": "pear",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Груша",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_pear",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ГРУША",
+      "wordId": "pear",
+      "image": "pear",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Груша",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_pear",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ГРУША",
+      "wordId": "pear",
+      "image": "pear",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Груша",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_plum",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "СЛИВА",
+      "wordId": "plum",
+      "image": "plum",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Слива",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_plum",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "СЛИВА",
+      "wordId": "plum",
+      "image": "plum",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Слива",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_plum",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "СЛИВА",
+      "wordId": "plum",
+      "image": "plum",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Слива",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_plum",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "СЛИВА",
+      "wordId": "plum",
+      "image": "plum",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Слива",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_fish",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "РЫБА",
+      "wordId": "fish",
+      "image": "fish",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Рыба",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_fish",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "РЫБА",
+      "wordId": "fish",
+      "image": "fish",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Рыба",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_fish",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "РЫБА",
+      "wordId": "fish",
+      "image": "fish",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Рыба",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_fish",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "РЫБА",
+      "wordId": "fish",
+      "image": "fish",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Рыба",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_duck",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "УТКА",
+      "wordId": "duck",
+      "image": "duck",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Утка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_duck",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "УТКА",
+      "wordId": "duck",
+      "image": "duck",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Утка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_duck",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "УТКА",
+      "wordId": "duck",
+      "image": "duck",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Утка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_duck",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "УТКА",
+      "wordId": "duck",
+      "image": "duck",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Утка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_goose",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ГУСЬ",
+      "wordId": "goose",
+      "image": "goose",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Гусь",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_goose",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ГУСЬ",
+      "wordId": "goose",
+      "image": "goose",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Гусь",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_goose",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ГУСЬ",
+      "wordId": "goose",
+      "image": "goose",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Гусь",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_goose",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ГУСЬ",
+      "wordId": "goose",
+      "image": "goose",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Гусь",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_mouse",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "МЫШЬ",
+      "wordId": "mouse",
+      "image": "mouse",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Мышь",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_mouse",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "МЫШЬ",
+      "wordId": "mouse",
+      "image": "mouse",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Мышь",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_mouse",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "МЫШЬ",
+      "wordId": "mouse",
+      "image": "mouse",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Мышь",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_mouse",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "МЫШЬ",
+      "wordId": "mouse",
+      "image": "mouse",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Мышь",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_hare",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ЗАЯЦ",
+      "wordId": "hare",
+      "image": "hare",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Заяц",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_hare",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ЗАЯЦ",
+      "wordId": "hare",
+      "image": "hare",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Заяц",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_hare",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ЗАЯЦ",
+      "wordId": "hare",
+      "image": "hare",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Заяц",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_hare",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ЗАЯЦ",
+      "wordId": "hare",
+      "image": "hare",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Заяц",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_fox",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ЛИСА",
+      "wordId": "fox",
+      "image": "fox",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Лиса",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_fox",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ЛИСА",
+      "wordId": "fox",
+      "image": "fox",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Лиса",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_fox",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ЛИСА",
+      "wordId": "fox",
+      "image": "fox",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Лиса",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_fox",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ЛИСА",
+      "wordId": "fox",
+      "image": "fox",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Лиса",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_porridge",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "КАША",
+      "wordId": "porridge",
+      "image": "porridge",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Каша",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_porridge",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "КАША",
+      "wordId": "porridge",
+      "image": "porridge",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Каша",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_porridge",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "КАША",
+      "wordId": "porridge",
+      "image": "porridge",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Каша",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_porridge",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "КАША",
+      "wordId": "porridge",
+      "image": "porridge",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Каша",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_table",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "СТОЛ",
+      "wordId": "table",
+      "image": "table",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Стол",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_table",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "СТОЛ",
+      "wordId": "table",
+      "image": "table",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Стол",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_table",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "СТОЛ",
+      "wordId": "table",
+      "image": "table",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Стол",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_table",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "СТОЛ",
+      "wordId": "table",
+      "image": "table",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Стол",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_chair",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "СТУЛ",
+      "wordId": "chair",
+      "image": "chair",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Стул",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_chair",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "СТУЛ",
+      "wordId": "chair",
+      "image": "chair",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Стул",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_chair",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "СТУЛ",
+      "wordId": "chair",
+      "image": "chair",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Стул",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_chair",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "СТУЛ",
+      "wordId": "chair",
+      "image": "chair",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Стул",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_cup",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ЧАШКА",
+      "wordId": "cup",
+      "image": "cup",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Чашка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_cup",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ЧАШКА",
+      "wordId": "cup",
+      "image": "cup",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Чашка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_cup",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ЧАШКА",
+      "wordId": "cup",
+      "image": "cup",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Чашка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_cup",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ЧАШКА",
+      "wordId": "cup",
+      "image": "cup",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Чашка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_spoon",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ЛОЖКА",
+      "wordId": "spoon",
+      "image": "spoon",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Ложка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_spoon",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ЛОЖКА",
+      "wordId": "spoon",
+      "image": "spoon",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Ложка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_spoon",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ЛОЖКА",
+      "wordId": "spoon",
+      "image": "spoon",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Ложка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_spoon",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ЛОЖКА",
+      "wordId": "spoon",
+      "image": "spoon",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Ложка",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_book",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "КНИГА",
+      "wordId": "book",
+      "image": "book",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Книга",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_book",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "КНИГА",
+      "wordId": "book",
+      "image": "book",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Книга",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_book",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "КНИГА",
+      "wordId": "book",
+      "image": "book",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Книга",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_book",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "КНИГА",
+      "wordId": "book",
+      "image": "book",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Книга",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_cube",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "КУБИК",
+      "wordId": "cube",
+      "image": "cube",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Кубик",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_cube",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "КУБИК",
+      "wordId": "cube",
+      "image": "cube",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Кубик",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_cube",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "КУБИК",
+      "wordId": "cube",
+      "image": "cube",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Кубик",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_cube",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "КУБИК",
+      "wordId": "cube",
+      "image": "cube",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Кубик",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_sleep",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "СПАТЬ",
+      "wordId": "sleep",
+      "image": "sleep",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Спать",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_sleep",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "СПАТЬ",
+      "wordId": "sleep",
+      "image": "sleep",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Спать",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_sleep",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "СПАТЬ",
+      "wordId": "sleep",
+      "image": "sleep",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Спать",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_sleep",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "СПАТЬ",
+      "wordId": "sleep",
+      "image": "sleep",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Спать",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_walk",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ИДТИ",
+      "wordId": "walk",
+      "image": "walk",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Идти",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_walk",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ИДТИ",
+      "wordId": "walk",
+      "image": "walk",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Идти",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_walk",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ИДТИ",
+      "wordId": "walk",
+      "image": "walk",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Идти",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_walk",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ИДТИ",
+      "wordId": "walk",
+      "image": "walk",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Идти",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_wash",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "МЫТЬ",
+      "wordId": "wash",
+      "image": "wash",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Мыть",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_wash",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "МЫТЬ",
+      "wordId": "wash",
+      "image": "wash",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Мыть",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_wash",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "МЫТЬ",
+      "wordId": "wash",
+      "image": "wash",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Мыть",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_wash",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "МЫТЬ",
+      "wordId": "wash",
+      "image": "wash",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Мыть",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_stop",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "СТОП",
+      "wordId": "stop",
+      "image": "stop",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Стоп",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_stop",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "СТОП",
+      "wordId": "stop",
+      "image": "stop",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Стоп",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_stop",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "СТОП",
+      "wordId": "stop",
+      "image": "stop",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Стоп",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_stop",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "СТОП",
+      "wordId": "stop",
+      "image": "stop",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Стоп",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_hand",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "РУКА",
+      "wordId": "hand",
+      "image": "hand",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Рука",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_hand",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "РУКА",
+      "wordId": "hand",
+      "image": "hand",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Рука",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_hand",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "РУКА",
+      "wordId": "hand",
+      "image": "hand",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Рука",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_hand",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "РУКА",
+      "wordId": "hand",
+      "image": "hand",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Рука",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_mouth",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "РОТ",
+      "wordId": "mouth",
+      "image": "mouth",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Рот",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_mouth",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "РОТ",
+      "wordId": "mouth",
+      "image": "mouth",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Рот",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_mouth",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "РОТ",
+      "wordId": "mouth",
+      "image": "mouth",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Рот",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_mouth",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "РОТ",
+      "wordId": "mouth",
+      "image": "mouth",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Рот",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "explore_hedgehog",
+      "type": "EXPLORE",
+      "skill": "Связь изображения, слова и значения",
+      "level": 1,
+      "text": "ЁЖ",
+      "wordId": "hedgehog",
+      "image": "hedgehog",
+      "instruction": "Посмотри на картинку. Можно послушать слово.",
+      "speech": "Ёж",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "viewed"
+    },
+    {
+      "id": "build_hedgehog",
+      "type": "BUILD",
+      "skill": "Порядок букв в слове",
+      "level": 2,
+      "text": "ЁЖ",
+      "wordId": "hedgehog",
+      "image": "hedgehog",
+      "instruction": "Нажимай на буквы и собери слово.",
+      "speech": "Ёж",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "copy_hedgehog",
+      "type": "COPY",
+      "skill": "Печатание по образцу",
+      "level": 2,
+      "text": "ЁЖ",
+      "wordId": "hedgehog",
+      "image": "hedgehog",
+      "instruction": "Напечатай слово по образцу.",
+      "speech": "Ёж",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "picture_hedgehog",
+      "type": "PICTURE",
+      "skill": "Печатание по изображению",
+      "level": 3,
+      "text": "ЁЖ",
+      "wordId": "hedgehog",
+      "image": "hedgehog",
+      "instruction": "Посмотри на картинку и напечатай слово.",
+      "speech": "Ёж",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всё слово"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "phrase_give_book",
+      "type": "PHRASE",
+      "skill": "Печатание осмысленной фразы по образцу",
+      "level": 3,
+      "text": "ДАЙ КНИГУ",
+      "wordId": "book",
+      "image": "book",
+      "instruction": "Напечатай фразу. Покажи её взрослому, когда захочешь.",
+      "speech": "ДАЙ КНИГУ",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всю фразу"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "phrase_give_spoon",
+      "type": "PHRASE",
+      "skill": "Печатание осмысленной фразы по образцу",
+      "level": 3,
+      "text": "ДАЙ ЛОЖКУ",
+      "wordId": "spoon",
+      "image": "spoon",
+      "instruction": "Напечатай фразу. Покажи её взрослому, когда захочешь.",
+      "speech": "ДАЙ ЛОЖКУ",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всю фразу"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "phrase_give_cube",
+      "type": "PHRASE",
+      "skill": "Печатание осмысленной фразы по образцу",
+      "level": 3,
+      "text": "ДАЙ КУБИК",
+      "wordId": "cube",
+      "image": "cube",
+      "instruction": "Напечатай фразу. Покажи её взрослому, когда захочешь.",
+      "speech": "ДАЙ КУБИК",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всю фразу"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "phrase_want_sleep",
+      "type": "PHRASE",
+      "skill": "Печатание осмысленной фразы по образцу",
+      "level": 3,
+      "text": "ХОЧУ СПАТЬ",
+      "wordId": "sleep",
+      "image": "sleep",
+      "instruction": "Напечатай фразу. Покажи её взрослому, когда захочешь.",
+      "speech": "ХОЧУ СПАТЬ",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всю фразу"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "phrase_want_eat",
+      "type": "PHRASE",
+      "skill": "Печатание осмысленной фразы по образцу",
+      "level": 3,
+      "text": "ХОЧУ ЕСТЬ",
+      "wordId": "eat",
+      "image": "eat",
+      "instruction": "Напечатай фразу. Покажи её взрослому, когда захочешь.",
+      "speech": "ХОЧУ ЕСТЬ",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всю фразу"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "phrase_want_juice",
+      "type": "PHRASE",
+      "skill": "Печатание осмысленной фразы по образцу",
+      "level": 3,
+      "text": "ХОЧУ СОК",
+      "wordId": "juice",
+      "image": "juice",
+      "instruction": "Напечатай фразу. Покажи её взрослому, когда захочешь.",
+      "speech": "ХОЧУ СОК",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всю фразу"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "phrase_want_apple",
+      "type": "PHRASE",
+      "skill": "Печатание осмысленной фразы по образцу",
+      "level": 3,
+      "text": "ХОЧУ ЯБЛОКО",
+      "wordId": "apple",
+      "image": "apple",
+      "instruction": "Напечатай фразу. Покажи её взрослому, когда захочешь.",
+      "speech": "ХОЧУ ЯБЛОКО",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всю фразу"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "phrase_more_tea",
+      "type": "PHRASE",
+      "skill": "Печатание осмысленной фразы по образцу",
+      "level": 3,
+      "text": "ЕЩЁ ЧАЯ",
+      "wordId": "tea",
+      "image": "tea",
+      "instruction": "Напечатай фразу. Покажи её взрослому, когда захочешь.",
+      "speech": "ЕЩЁ ЧАЯ",
+      "hints": [
+        "Посмотреть следующую букву",
+        "Посмотреть всю фразу"
+      ],
+      "completion": "exact_text"
+    },
+    {
+      "id": "phrase_dont_want",
+      "type": "PHRASE",
+      "skill": "Печатание осмысленной фразы по образцу",
+      "level": 3,
+      "text": "НЕ ХОЧУ",
+      "wordId": "no",
+      "image": "no",
+      "instruction": "Напечатай фразу. Покажи её взрослому, когда захочешь.",
+      "speech": "НЕ ХОЧУ",
       "hints": [
         "Посмотреть следующую букву",
         "Посмотреть всю фразу"

@@ -61,13 +61,16 @@ object ContentLoader {
         val root = JSONObject(context.assets.open("content.json").bufferedReader().use { it.readText() })
         val words = root.getJSONArray("words").let { list -> (0 until list.length()).map { i ->
             val o = list.getJSONObject(i)
-            Word(o.getString("id"), o.getString("text"), o.getString("category"), o.getString("image"), o.getString("spoken"), o.getString("phraseForm"), o.optBoolean("communication", true))
+            Word(o.getString("id"), o.getString("text"), o.getString("category"), o.getString("image"),
+                o.getString("spoken"), o.getString("phraseForm"), o.optBoolean("communication", true),
+                o.optString("learningGroup", o.getString("category")))
         } }
         val exercises = root.getJSONArray("exercises").let { list -> (0 until list.length()).map { i ->
             val o = list.getJSONObject(i)
             Exercise(o.getString("id"), ExerciseType.valueOf(o.getString("type")), o.getString("skill"), o.getInt("level"), o.getString("text"), o.getString("wordId"), o.getString("image"), o.getString("instruction"), o.getString("speech"), o.getJSONArray("hints").let { h -> (0 until h.length()).map { h.getString(it) } }, o.getString("completion"))
         } }
         require(words.map { it.id }.distinct().size == words.size)
+        require(words.all { it.text.isNotBlank() && it.learningGroup.isNotBlank() })
         require(exercises.map { it.id }.distinct().size == exercises.size)
         require(exercises.all { ex -> words.any { it.id == ex.wordId } && ex.text.isNotBlank() && ex.hints.isNotEmpty() })
         return Content(words, exercises)

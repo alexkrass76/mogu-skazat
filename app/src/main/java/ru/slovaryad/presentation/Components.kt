@@ -24,18 +24,65 @@ val Peach = Color(0xFFF5E9D9)
         background = Paper, surface = Color.White, onSurface = Ink, onBackground = Ink,
         secondaryContainer = Mint, onSecondaryContainer = Ink), content = content)
 }
+private val illustrationResources = mapOf(
+    "want" to R.drawable.art_want,
+    "give" to R.drawable.art_give,
+    "more" to R.drawable.art_more,
+    "no" to R.drawable.art_no,
+    "yes" to R.drawable.art_yes,
+    "help" to R.drawable.art_help,
+    "drink" to R.drawable.art_drink,
+    "eat" to R.drawable.art_eat,
+    "play" to R.drawable.art_play,
+    "ball" to R.drawable.art_ball,
+    "car" to R.drawable.art_car,
+    "water" to R.drawable.art_water,
+    "apple" to R.drawable.art_apple,
+    "juice" to R.drawable.art_juice,
+    "cat" to R.drawable.art_cat,
+    "dog" to R.drawable.art_dog,
+    "home" to R.drawable.art_home,
+    "poppy" to R.drawable.art_poppy,
+    "nose" to R.drawable.art_nose,
+    "banana" to R.drawable.art_banana,
+    "bear" to R.drawable.art_bear,
+    "rest" to R.drawable.art_rest,
+    "toilet" to R.drawable.art_toilet,
+    "soup" to R.drawable.art_soup,
+    "cheese" to R.drawable.art_cheese,
+    "bread" to R.drawable.art_bread,
+    "tea" to R.drawable.art_tea,
+    "milk" to R.drawable.art_milk,
+    "pear" to R.drawable.art_pear,
+    "plum" to R.drawable.art_plum,
+    "fish" to R.drawable.art_fish,
+    "duck" to R.drawable.art_duck,
+    "goose" to R.drawable.art_goose,
+    "mouse" to R.drawable.art_mouse,
+    "hare" to R.drawable.art_hare,
+    "fox" to R.drawable.art_fox,
+    "porridge" to R.drawable.art_porridge,
+    "table" to R.drawable.art_table,
+    "chair" to R.drawable.art_chair,
+    "cup" to R.drawable.art_cup,
+    "spoon" to R.drawable.art_spoon,
+    "book" to R.drawable.art_book,
+    "cube" to R.drawable.art_cube,
+    "sleep" to R.drawable.art_sleep,
+    "walk" to R.drawable.art_walk,
+    "wash" to R.drawable.art_wash,
+    "stop" to R.drawable.art_stop,
+    "hand" to R.drawable.art_hand,
+    "mouth" to R.drawable.art_mouth,
+    "hedgehog" to R.drawable.art_hedgehog
+)
+
+fun illustrationResource(key: String): Int? = illustrationResources[key]
+
 @Composable fun Illustration(key: String, label: String, modifier: Modifier = Modifier) {
-    val id = when(key) {
-        "cat" -> R.drawable.art_cat; "dog" -> R.drawable.art_dog; "ball" -> R.drawable.art_ball
-        "water" -> R.drawable.art_water; "apple" -> R.drawable.art_apple; "juice" -> R.drawable.art_juice
-        "car" -> R.drawable.art_car; "home" -> R.drawable.art_home; "nose" -> R.drawable.art_nose
-        "poppy" -> R.drawable.art_poppy; "banana" -> R.drawable.art_banana; "bear" -> R.drawable.art_bear
-        "yes" -> R.drawable.art_yes; "no" -> R.drawable.art_no; "more" -> R.drawable.art_more
-        "help" -> R.drawable.art_help; "give" -> R.drawable.art_give; "want" -> R.drawable.art_want
-        "eat" -> R.drawable.art_eat; "drink" -> R.drawable.art_drink; "play" -> R.drawable.art_play
-        "rest" -> R.drawable.art_rest; else -> R.drawable.art_toilet
-    }
-    Image(painterResource(id), label, modifier)
+    val id = illustrationResource(key)
+    if (id != null) Image(painterResource(id), label, modifier)
+    else Text("Картинка недоступна", modifier, color = Ink)
 }
 @Composable fun Action(text: String, modifier: Modifier = Modifier, enabled: Boolean = true, onClick: () -> Unit) {
     Button(onClick, modifier.heightIn(min = 64.dp), enabled = enabled, shape = RoundedCornerShape(20.dp),

@@ -9,6 +9,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.Assert.*
 import ru.slovaryad.data.ContentLoader
+import ru.slovaryad.domain.ExerciseType
+import ru.slovaryad.presentation.illustrationResource
 
 @RunWith(AndroidJUnit4::class)
 class AppSmokeTest {
@@ -37,12 +39,27 @@ class AppSmokeTest {
     }
     @Test fun contentReferencesAreComplete() {
         val content = ContentLoader.load(rule.activity)
-        assertEquals(23, content.words.size)
-        assertEquals(47, content.exercises.size)
+        assertEquals(50, content.words.size)
+        assertEquals(216, content.exercises.size)
+        assertEquals(22, content.words.count { it.communication })
+        assertEquals(content.words.size, content.words.map { it.id }.distinct().size)
+        assertEquals(content.exercises.size, content.exercises.map { it.id }.distinct().size)
+        val alphabet = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ ".toSet()
+        content.words.forEach { word ->
+            assertTrue(word.learningGroup.isNotBlank())
+            val resource = illustrationResource(word.image)
+            assertNotNull("Нет иллюстрации: ${word.id}", resource)
+            assertNotNull(rule.activity.getDrawable(resource!!))
+            listOf(ExerciseType.EXPLORE, ExerciseType.BUILD, ExerciseType.COPY, ExerciseType.PICTURE).forEach { type ->
+                assertTrue("Нет режима $type для ${word.id}", content.exercises.any { it.wordId == word.id && it.type == type && it.text == word.text })
+            }
+        }
         content.exercises.forEach { ex ->
             assertTrue(content.words.any { it.id == ex.wordId })
             assertTrue(ex.hints.isNotEmpty())
             assertTrue(ex.level in 1..3)
+            assertTrue(ex.text.all { it in alphabet })
+            assertNotNull("Нет иллюстрации упражнения ${ex.id}", illustrationResource(ex.image))
         }
     }
     @Test fun parentSettingsAreProtected() {
@@ -57,6 +74,7 @@ class AppSmokeTest {
         homeReady()
         rule.onNodeWithText("Учить слова").performClick()
         rule.onNodeWithText("Собрать слово").performClick()
+        rule.onNodeWithText("Общение").performScrollTo().performClick()
         rule.onNodeWithText("ПОМОГИ").performClick()
         rule.onNode(hasText("П") and hasClickAction() and isEnabled()).performClick()
         rule.activityRule.scenario.recreate()
@@ -64,6 +82,22 @@ class AppSmokeTest {
         for (letter in listOf("О", "М", "О", "Г", "И")) {
             rule.onAllNodes(hasText(letter) and hasClickAction() and isEnabled())[0].performClick()
         }
+        rule.onNodeWithText("Готово").performScrollTo().performClick()
+        rule.onNodeWithText("Получилось! Можно продолжить или отдохнуть.").assertIsDisplayed()
+    }
+    @Test fun newWordsCanBeFilteredAndTypedWithYo() {
+        homeReady()
+        rule.onNodeWithText("Печатать").performClick()
+        rule.onNodeWithText("По образцу").performClick()
+        rule.onNodeWithText("Животные").performScrollTo().performClick()
+        rule.onNodeWithText("СУП").assertDoesNotExist()
+        rule.onNodeWithText("Одна буква").performClick()
+        rule.onNodeWithTag("exercise_groups").assertDoesNotExist()
+        rule.onNodeWithText("По образцу").performClick()
+        rule.onNodeWithTag("exercise_grid").performScrollToNode(hasText("ЁЖ"))
+        rule.onNodeWithText("ЁЖ").performClick()
+        rule.onNode(hasText("Ё") and hasClickAction()).performClick()
+        rule.onNode(hasText("Ж") and hasClickAction()).performClick()
         rule.onNodeWithText("Готово").performScrollTo().performClick()
         rule.onNodeWithText("Получилось! Можно продолжить или отдохнуть.").assertIsDisplayed()
     }

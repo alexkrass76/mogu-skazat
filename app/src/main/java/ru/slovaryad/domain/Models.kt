@@ -5,7 +5,8 @@ import java.time.LocalDate
 enum class ExerciseType(val title: String) {
     EXPLORE("Знакомство"), BUILD("Собрать слово"), LETTER("Одна буква"), COPY("По образцу"), PICTURE("По картинке"), PHRASE("Короткая фраза")
 }
-data class Word(val id: String, val text: String, val category: String, val image: String, val spoken: String, val phraseForm: String, val communication: Boolean = true)
+data class Word(val id: String, val text: String, val category: String, val image: String, val spoken: String,
+    val phraseForm: String, val communication: Boolean = true, val learningGroup: String = category)
 data class Exercise(val id: String, val type: ExerciseType, val skill: String, val level: Int, val text: String,
                     val wordId: String, val image: String, val instruction: String, val speech: String,
                     val hints: List<String>, val completion: String)

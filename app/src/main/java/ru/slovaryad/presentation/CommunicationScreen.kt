@@ -10,6 +10,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -64,18 +65,37 @@ import java.time.LocalDate
 }
 @Composable fun ExercisePicker(content: Content, history: List<Attempt>, s: Settings, learn: Boolean, open: (Exercise) -> Unit) {
     var typeName by rememberSaveable(learn) { mutableStateOf(if (learn) "EXPLORE" else "LETTER") }
+    var groupName by rememberSaveable(learn) { mutableStateOf("Все слова") }
     val types = if (learn) listOf(ExerciseType.EXPLORE, ExerciseType.BUILD) else listOf(ExerciseType.LETTER, ExerciseType.COPY, ExerciseType.PICTURE, ExerciseType.PHRASE)
     val allowed = content.exercises.filter { it.type in types && it.level <= s.maxLevel && it.type.name in s.allowed }
-    val recommendation = AdaptiveLearning.select(allowed, history, LocalDate.now(), s)
-    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Heading(if (learn) "Знакомые слова" else "Печатать", "Можно выбрать любое доступное задание")
+    val activeType = types.find { it.name == typeName && it.name in s.allowed }
+        ?: types.firstOrNull { it.name in s.allowed }
+    val words = content.words.associateBy { it.id }
+    val modeExercises = allowed.filter { it.type == activeType }
+    val groupOrder = listOf("Еда", "Напитки", "Животные", "Игрушки", "Дом", "Действия", "Общение", "Тело", "Растения")
+    val groups = if (activeType == ExerciseType.LETTER) emptyList() else modeExercises
+        .mapNotNull { words[it.wordId]?.learningGroup }.distinct()
+        .sortedBy { groupOrder.indexOf(it).let { index -> if (index < 0) Int.MAX_VALUE else index } }
+    val activeGroup = groupName.takeIf { it in groups } ?: "Все слова"
+    val visible = modeExercises.filter { activeGroup == "Все слова" || words[it.wordId]?.learningGroup == activeGroup }
+    val recommendation = AdaptiveLearning.select(visible, history, LocalDate.now(), s)
+    Column(Modifier.fillMaxSize(), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Heading(if (learn) "Знакомые слова" else "Печатать", "Можно выбрать тему и знакомое слово")
         if (recommendation != null && s.adaptive) Action("Предложение: ${recommendation.text}") { open(recommendation) }
         Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            types.filter { it.name in s.allowed }.forEach { type -> FilterChip(typeName == type.name, { typeName = type.name }, label = { Text(type.title, Modifier.padding(vertical = 12.dp), fontSize = 18.sp) }) }
+            types.filter { it.name in s.allowed }.forEach { type -> FilterChip(activeType == type, { typeName = type.name }, label = { Text(type.title, Modifier.padding(vertical = 12.dp), fontSize = 18.sp) }) }
         }
-        val visible = allowed.filter { it.type.name == typeName }
+        if (groups.size > 1) {
+            Row(Modifier.horizontalScroll(rememberScrollState()).testTag("exercise_groups"), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                (listOf("Все слова") + groups).forEach { group ->
+                    FilterChip(activeGroup == group, { groupName = group }, label = {
+                        Text(group, Modifier.padding(vertical = 12.dp), fontSize = 18.sp)
+                    })
+                }
+            }
+        }
         if (visible.isEmpty()) Info("Для этого режима сейчас нет заданий. Взрослый может изменить уровень или выбрать упражнения в настройках.")
-        LazyVerticalGrid(GridCells.Adaptive(if (s.large) 210.dp else 175.dp), verticalArrangement = Arrangement.spacedBy(12.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        LazyVerticalGrid(GridCells.Adaptive(if (s.large) 210.dp else 175.dp), Modifier.weight(1f).testTag("exercise_grid"), verticalArrangement = Arrangement.spacedBy(12.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             items(visible, key = { it.id }) { ex -> Card(onClick = { open(ex) }, colors = CardDefaults.cardColors(containerColor = Color.White)) {
                 Column(Modifier.fillMaxWidth().padding(18.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                     Illustration(ex.image, ex.text, Modifier.size(if (s.large) 118.dp else 94.dp))
