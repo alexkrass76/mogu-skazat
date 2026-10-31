@@ -1,0 +1,27 @@
+.gradle/
+.kotlin/
+local.properties
+**/build/
+.idea/
+*.iml
+.DS_Store
+
+# Локальные секреты, ключи подписи и данные устройства
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+key.properties
+keystore.properties
+*.apk
+*.aab
+*.db
+*.db-shm
+*.db-wal
+.local/
+# Снимки реального устройства остаются локальными
+docs/device-check/
+docs/screenshots/
